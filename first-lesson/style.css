@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: white;
+    background-color: green;
+    height: 37px;
+    padding: 5px;
+}
+
+span {
+    color: red;
+}
+
+.logo {
+    width: 150px;
+}
+
+.info {
+    background-color: blue;
+    color: white;
+    width: 101px;
+    margin-bottom: 100px;
+}
+
+.info_3 {
+    padding-left: 100px;
+}
+
+.title_1 {
+    height: 117px;
+    padding-left: 45px;
+    padding-top: 50px;
+}
+
+.list li {
+    border: 1px solid black;
+    font-size: 30px;
+}

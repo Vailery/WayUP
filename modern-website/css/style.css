@@ -189,3 +189,143 @@ footer p {
     line-height: 25px;
     text-align: center;
 }
+
+
+/* Responsive */
+
+
+/*992px-1200px*/
+
+@media screen and (max-width:1200px) {
+    .header {
+        width: auto;
+    }
+    .header img {
+        margin-left: 40px;
+    }
+    .headerFlex img {
+        margin: 0;
+        width: 60%;
+    }
+    .headerContent {
+        margin-left: 40px;
+        width: 390px;
+    }
+    .about {
+        width: auto;
+    }
+    .icons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .icons div {
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .formOrder {
+        width: auto;
+    }
+    footer p {
+        width: auto;
+    }
+}
+
+
+/*815PX-992PX*/
+
+@media screen and (max-width:992px) {
+    .headerContent {
+        width: auto;
+        margin: 40px 0 0 40px;
+    }
+    .headerContent h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .headerContent h1 span {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .headerContent p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 30px 0 20px 0;
+    }
+    .headerFlex img {
+        width: 54%;
+    }
+}
+
+
+/*815PX-768PX*/
+
+@media screen and (max-width:815px) {
+    .headerContent h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .headerContent h1 span {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .headerContent p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 30px 0 20px 0;
+    }
+    .headerFlex img {
+        width: 50%;
+    }
+}
+
+
+/*576PX-768PX*/
+
+@media screen and (max-width:768px) {
+    .headerContent a {
+        width: 157px;
+        height: 45px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .about h2 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .about h3 {
+        font-size: 14px;
+    }
+    .formOrder h2 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+}
+
+
+/*0PX-576PX*/
+
+@media screen and (max-width:576px) {
+    .headerFlex {
+        text-align: center;
+        flex-direction: column;
+    }
+    .headerContent a {
+        text-align: center;
+        width: 90%;
+    }
+    .headerFlex img {
+        width: 320px;
+    }
+    .icons div {
+        width: 90%;
+    }
+    .formOrder {
+        width: 90%;
+    }
+    .formOrder input {
+        width: 90%;
+    }
+    .formOrder button {
+        width: 90%;
+    }
+}

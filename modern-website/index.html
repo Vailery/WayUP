@@ -8,6 +8,9 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.css">
+
     <!-- favicon -->
     <link rel="shortcut icon" href="img/deckstop.png" type="image/png">
 
@@ -22,7 +25,7 @@
 <body>
     <header>
         <div class="header">
-            <img src="img/logo.png" alt="logo" class="logo">
+            <img src="img/logo.png" alt="logo" class="logo zoomIn animated">
             <div class="headerFlex">
                 <div class="headerContent">
                     <h1>
@@ -33,19 +36,19 @@
                     </p>
                     <a href="#form" type="submit">Двигаться к мечте!</a>
                 </div>
-                <img src="img/deckstop.png" alt="travel">
+                <img src="img/deckstop.png" alt="travel" class="animated flipInY">
             </div>
         </div>
     </header>
 
     <section>
-        <div class="about">
+        <div class=" about ">
             <h2>
                 Что меня ждет впереди
             </h2>
-            <div class="icons">
+            <div class="icons ">
                 <div>
-                    <img src="img/icon-1.jpg" alt="icon">
+                    <img src="img/icon-1.jpg " alt="icon" class="icon animated">
                     <h3>
                         Свободное время
                     </h3>
@@ -54,7 +57,7 @@
                     </p>
                 </div>
                 <div>
-                    <img src="img/icon-2.jpg" alt="icon">
+                    <img src="img/icon-2.jpg " alt="icon" class="icon animated">
                     <h3>
                         Яркие путешествия
                     </h3>
@@ -63,7 +66,7 @@
                     </p>
                 </div>
                 <div>
-                    <img src="img/icon-3.jpg" alt="icon">
+                    <img src="img/icon-3.jpg " alt="icon" class="icon animated">
                     <h3>
                         Создание ценности
                     </h3>
@@ -75,16 +78,16 @@
         </div>
     </section>
 
-    <section class="form" id="form">
-        <div class="formOrder">
-            <h2>
+    <section class="form " id="form ">
+        <div class="formOrder ">
+            <h2 class="mainForm animated">
                 Форма заказа билета в будущее
             </h2>
-            <form action="">
-                <input type="name" placeholder="Имя">
-                <input type="e-mail" placeholder="E-mail">
-                <input type="tel" placeholder="Телефон">
-                <input type="text" placeholder="Куда я полечу в ближайшее время?">
+            <form action=" ">
+                <input type="name " placeholder="Имя ">
+                <input type="e-mail " placeholder="E-mail ">
+                <input type="tel " placeholder="Телефон ">
+                <input type="text " placeholder="Куда я полечу в ближайшее время? ">
                 <button>Двигаться к мечте!</button>
             </form>
         </div>
@@ -95,6 +98,9 @@
             &#169; Все мои мечты защищены моим трудолюбием
         </p>
     </footer>
+
+    <script src="js/jquery-3.6.0.min.js "></script>
+    <script src="js/main.js "></script>
 </body>
 
 </html>
